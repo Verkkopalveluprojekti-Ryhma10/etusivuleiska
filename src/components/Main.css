@@ -6,12 +6,29 @@
 
 .navbar {
     width: 200px;    
-    background-color: antiquewhite;
+    background: linear-gradient(to right, #011d0d, rgb(218, 226, 223));
     padding: 10 0 10 0;
+    color: rgb(252, 235, 215);
+}
+
+li {
+    list-style: none;
+}
+
+li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(252, 235, 215);
+}
+
+a:hover {
+    color: rgb(196, 6, 6)
 }
 
 .aside {
     flex: 1;
+    background: linear-gradient(to left, #011d0d, rgb(218, 226, 223));
+    color: rgb(252, 249, 247);
     padding: 30px;
 }
 
