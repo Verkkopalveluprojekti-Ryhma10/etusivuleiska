@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-image: url("../images/trees-975091_1280.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    color:beige;
+    font-size: 5em;
+}
