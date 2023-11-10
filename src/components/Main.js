@@ -4,22 +4,27 @@ import mallikuva from '../images/pine.jpg';
 
 
 function Main() {
+
+  const imageCount = 3;
+
+  const images = [];
+  for (let i = 0; i < imageCount; i++) {
+      images.push(<img key={i} src={mallikuva} alt="mallikuva" style={{ marginRight: '10px' }} />);
+  }
+
     return (
       <main className="main">
         <div className="navbar"> 
         <Navbar />
         </div>
         <aside className="aside">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>            
-            <img src={mallikuva} alt="mallikuva"></img>            
-        </aside>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
+                </p>            
+                <div style={{ display: 'flex', flexDirection: 'row' }}>
+                    {images}
+                </div>            
+            </aside>
       </main>
     );
   }
