@@ -1,0 +1,18 @@
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import '../components/Shoppingcart.css';
+
+function ShoppingCart() {
+    // logiikkaa sisällön hallintaan
+
+    return (
+        <div className="shopping-cart">
+            <span>Ostoskori</span>
+            <FontAwesomeIcon icon={faShoppingCart} />
+            {/* valittujentuotteiden määrän */}
+        </div>
+    );
+}
+
+export default ShoppingCart;

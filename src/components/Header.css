@@ -1,14 +1,21 @@
 .header {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5 10px;
     height: 250px;
     background-image: url("../images/trees-975091_1280.jpg");
     background-size: cover;
-    background-position: center center;
+    background-position: center;
+    width: 100%;
 }
 
 h1 {
     color:beige;
     font-size: 5em;
+}
+
+.shopping-cart {
+    cursor: pointer;
+    font-size: 24px;
 }

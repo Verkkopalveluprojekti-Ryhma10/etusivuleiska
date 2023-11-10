@@ -23,6 +23,10 @@ function Main() {
                 </p>            
                 <div style={{ display: 'flex', flexDirection: 'row' }}>
                     {images}
+                </div>
+                <div style={{ height: '20px' }}></div>           
+                <div style={{ display: 'flex', flexDirection: 'row' }}>
+                    {images}
                 </div>            
             </aside>
       </main>
