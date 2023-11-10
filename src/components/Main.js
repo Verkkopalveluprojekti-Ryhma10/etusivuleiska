@@ -1,5 +1,7 @@
 import Navbar from "./Navbar";
 import './Main.css'
+import mallikuva from '../images/pine.jpg';
+
 
 function Main() {
     return (
@@ -15,8 +17,8 @@ function Main() {
                 reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                 Excepteur sint occaecat cupidatat non proident, 
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <img src="./images/mallikuva.jpg" alt="mallikuva"></img>
+            </p>            
+            <img src={mallikuva} alt="mallikuva"></img>            
         </aside>
       </main>
     );
