@@ -7,7 +7,7 @@ function Footer() {
             <div className="footer-content">
                 <p>Osoite: joulukatu 24 a 24</p>
                 <p>Sähköposti: info@esimerkki.fi</p>
-                <p>Puhelin: 0123-456789</p>
+                <p>Puhelin: 0123-4567589</p>
             </div>
         </footer>
     );

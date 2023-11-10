@@ -4,7 +4,7 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import '../components/Shoppingcart.css';
 
 function ShoppingCart() {
-    // logiikkaa sisällön hallintaan
+    // logiikkaa sisällön hallintaa
 
     return (
         <div className="shopping-cart">
